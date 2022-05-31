@@ -1,0 +1,285 @@
+/*for desktop*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body{
+    background-color: rgb(210, 221, 238);
+}
+
+h1{
+    background-color: #abb9b9;
+}
+
+.home_container{
+    background-color: #abb9b9;
+    box-shadow: 5px 5px 5px #1f3041;
+
+}
+
+/* About section design for desktop */
+.about_container{
+    width: 100%;
+}
+
+/* About navber menu design */
+
+.about_menu{
+    border-right: 2px #406f70 solid;
+    margin-right: 10px;
+}
+.about_menu a{
+    margin: 0px;
+    padding: 10px;
+    border-radius: 0px;
+    background-color: rgb(210, 221, 238);
+    font-size: 1.3rem;
+    color: #13033f;
+}
+.about_menu a:hover{
+    color: white;
+    background-color: #288b81;
+    border: 2px #022638 solid;
+}
+.about_menu a b{
+    border-bottom: 2px #0b7070 solid;
+    width: 100%;
+}
+
+/* About section desciption design */
+
+.about_desc{
+    background-color: rgb(210, 221, 238);
+    border: none;
+    float: left;
+    width: 35%;
+   
+}
+.about_desc:hover{
+    border: none;
+}
+
+.about_me{
+    width: 70%;
+    height: 150px;
+    font-size: 1.6rem;
+    margin-left: 45px;
+    
+}
+.about_me:hover{
+    font-size: 1.8rem;
+    border:none;
+}
+
+.about_bb2{
+    margin-top: 80px;
+    margin-left: 120px;
+    width: 300px;
+    height: 160px;
+    background-color:  #8da5a5;
+}
+.about_bb2:hover{
+    border: 1px #adadad solid;
+
+}
+.about_ss3{
+    position: absolute;
+    text-align: center;
+    height: 250px;
+    width: 320px;
+    background-color: #98c2be;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about_ss2{
+    border: 5px #165e5e solid;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px 20px 80px;
+    z-index:10;
+    background-color: #4faca4;
+}
+.about_bs1{
+    margin-left: 70px;
+    margin-top: 200px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+
+.about_image{
+    margin: none;
+    padding:10px;
+    float:left;
+    width: 35%;
+    background-color:rgb(210, 221, 238);
+}
+.about_bs2{
+    /* background-color:rgb(210, 221, 238); */
+    background-color: #89aaa8;
+    margin-left: 160px;
+    margin-right: 30px;
+    padding-right: 30px;
+    
+}
+.about_bb3 img{
+    border: 5px #165e5e solid;
+}
+
+/* about section design ends here */
+
+/* education section design starts here */
+.education_container{
+    background-color: rgb(210, 221, 238);
+}
+
+.education_heading{
+    margin: 0%;   
+}
+.education_heading h1{
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(210, 221, 238);
+}
+.college_menu{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.education_card{
+    background-color: #abb9b9;
+    float: left;
+    width: 30%;
+    height: 170px;
+    color:black;
+    margin: 10px;
+    padding: 20px 5px;
+
+}
+.education_card a{
+    color:rgb(19, 4, 61);
+
+}
+/* education section design ends here */
+/* Skills section design starts here */
+.skill_container{
+    background-color: rgb(210, 221, 238);
+} 
+.skill_img img{
+    border: 3px solid black;
+}  
+.skill_desc{
+    margin-left: 12%;
+    padding: 25px 60px;
+    width: 75%;
+    box-shadow: none;
+    background-color: #bfcccc; 
+    /* background-color: rgb(210, 221, 238); */
+  }
+  .skill_desc .bar .info span{
+    color: black;
+  }
+  .bar .line span{
+    background: #3d738d;
+  }
+  .line span::after{
+    color: rgb(26, 27, 27);
+ }
+/*  Skills section design ends here */
+
+/* project section design starts here */
+.project_container{
+    background-color: rgb(210, 221, 238);
+}   
+
+.heading {
+    margin: 0%; 
+    border-radius: 5px;
+    background-color: rgb(210, 221, 238);  
+}
+.heading strong{
+    color: #0a6796;
+}
+.heading h1{
+    background-color: rgb(210, 221, 238);
+}
+.project_menu{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.project_card{
+    background-color: #abb9b9;
+    float: left;
+    width: 30%;
+    height: 200px;
+    color:black;
+    margin: 10px;
+    padding: 20px 10px;
+
+}
+.project_card a{
+    color:rgb(19, 4, 61);
+
+}
+/* project section design ends here */
+
+/* contact section starts here */
+.contact_container{
+    
+    background-color: rgb(210, 221, 238);
+    padding: 5px; 
+}
+.contact_list{
+    padding-top:150px;
+    
+    
+}
+
+.contact_form button{
+    color: black;
+    font-size: larger;
+    background-color: #95a1a1;  
+}
+
+.media_button {
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+
+/* contact section Ends here */
+
+/* Footer design starts here */
+.footer_container{
+    background-color: rgb(210, 221, 238);
+    padding: 10px;
+    text-align: center;
+}
+.footer_menu a{
+    color: black;
+    font-size: 1.3rem;
+}
+.footer_menu a:hover{
+    color: rgb(82, 79, 79);
+}
+.footer_desc{
+    text-align: center;
+    color: black;
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+/* Footer design ends here */

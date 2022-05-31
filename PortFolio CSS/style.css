@@ -1,0 +1,590 @@
+/*font-family: 'Acme', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Lobster', cursive;*/
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(210, 221, 238);
+    font-family: 'Acme', sans-serif;
+    margin: none;
+}
+h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1.15rem;
+
+}
+[class*="col-"]{
+    float: left;
+    padding: 1px;
+}
+ 
+[class*="col-"]{
+    width: 100%;
+}
+
+/*Name  Design start*/
+.home_container{
+    text-align: center;
+    text-shadow: 2px 2px 1px #cbd6d6;
+    box-shadow: 4px 4px 5px #1f3041;
+    background-color: #5F9EA0;
+    border-radius: 3px;
+    width:100%;
+
+    
+}
+.home_container h1{transition: transform 10s;}
+.home_container h1:hover{
+    text-shadow: 2px 2px 1px #929bca;
+    transform: translate(250px, 0px);
+    cursor: pointer;
+}
+/* Name design ends here */
+
+/* About Section design start here */
+/* About menu design */
+.about_menu{
+}
+.about_menu a{
+    background-color:#406f70 ;
+    margin: 2px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+.about_menu a:hover{
+    background-color: #314050;
+    border: 2px solid #0fcfcf ;
+    border-radius: 3px;
+}
+/* About menu design end */
+
+
+/* About desc design start */
+.about_desc{
+    width: 100%;
+    background-color:#829e9e;
+}
+.about_me{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    float: left;
+    width: 60%;
+    height: 150px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.8rem;
+    border: 5px #165e5e solid;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    background-color: rgb(210, 221, 238);
+}
+
+.about_me:hover{
+    border: 6px #0fcfcf solid;
+    font-size: 1.6rem;
+
+}
+
+.about_bb2{
+   
+    /* border: 5px #23645f solid; */
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 240px;
+    height: 150px;
+    position:absolute;
+    z-index: 1;
+    background-color: #558581;
+}
+
+.about_bs1{
+    background-color:  #5a9692;
+    margin-top: 180px;
+    margin-left: 100px;
+    width: 80px;
+    height: 60px;
+    position:relative;
+    z-index: 2;
+}
+.about_bs1:hover{
+    border: 5px #074d47 solid;
+} 
+/* About imgae design */
+
+.about_image{
+    margin: 0px;
+    padding:30px  30px 30px 80px;
+    height: 350px;
+    position: relative;
+    z-index: 7;
+    width: 100%;
+    /* border: 3px #a8b8b8 solid;
+    border-radius: 5px; */
+    background-color: #829e9e;
+}
+.about_bs2{
+    background-color: #acbbbb;
+    width: 280px;
+    height: 280px;
+    float: left;
+    position: absolute;
+    z-index: 2;
+
+    
+}
+.about_bb3 img{
+    height: 230px;
+    width: 220px;
+    float:right;
+    position: absolute;
+    z-index: 3;
+    margin-top: 25px;
+    margin-left: 120px;
+    border: 5px #1d3941 solid;
+    
+    
+}
+.about_bs3{
+    background-color: #8ed3cd;
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    z-index: 4;
+    margin: 60px 40px 100px 60px ;
+    /* border: 3px #9c9e9e solid; */
+    
+}
+.about_bb4{
+    background-color: #586d6b;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    z-index: 6;
+    margin: 0px ;
+    margin:95px 100px 60px 15px  ;
+    
+}
+.about_bb5{
+    background-color: #57a09a;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    z-index: 5;
+    margin: 170px 100px 10px 70px ;
+    
+} 
+
+
+
+.about_container::after{
+    content: '';
+    display: table;
+    clear: both;
+    
+}
+
+/* About Section Ends here */
+
+
+
+/* Education container starts here */
+
+.education_container{
+     
+     background-color:#829e9e;
+     padding: 5px;
+}
+
+.education_heading{
+    
+    background-color:#5b7b7c ;
+    border-radius: 5px;
+    margin:1%;
+    box-shadow: 5px 5px 5px  #1f3041; 
+}
+.education_heading h1{
+   
+    text-shadow: 1px 1px 2px white;
+    width:100%;
+    text-align:center;
+   
+}
+.college_menu{
+    padding: 5px;
+    width: 100%;
+}
+
+.education_card{
+    width: 100%;
+    background-color:#406f70 ;
+    padding: 10px;
+    margin:1% 1% 1% 0%;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    transition: 0.3sec;
+}
+.education_card strong{
+    color: black;
+    font-size: large;
+}
+.education_card a{
+    text-decoration: underline;
+   
+}
+.education_card:hover{
+    box-shadow: 5px 5px 5px  #1f3041;
+}
+.education_container::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* Education container Ends here */
+
+/* Skill section design starts here */
+.skill_container{
+     
+    background-color:#829e9e;
+    padding: 5px;
+    
+}
+.skill_img{
+    text-align: center;
+    padding-top: 20px;
+}
+.skill_img img{
+    height: 60px;
+    width: 60px;
+    border: 3px white solid;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+.skill_desc{
+    margin: 5px;
+    padding: 25px 30px;
+    width: 100%;
+    background-color: #537677;
+    /* background-color:#829e9e; */
+    box-shadow: 5px 5px 2px rgba(15, 72, 85, 0.2);
+    border-radius: 5px;
+  }
+  .skill_desc .bar{
+    margin: 20px 0;
+  }
+  .skill_desc .bar:first-child{
+    margin-top: 0px;
+  }
+  .skill_desc .bar .info{
+    margin-bottom: 5px;
+  }
+  .skill_desc .bar .info span{
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    opacity: 0;
+    text-shadow: 1px 1px 1px black;
+    animation: showText 0.5s 1s linear forwards;
+  }
+  @keyframes showText {
+    100%{
+      opacity: 1;
+    }
+  }
+  .skill_desc .bar .line{
+    height: 10px;
+    width: 100%;
+    background: #bfc7ca;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(17, 14, 14, 0.05),
+                0 1px rgba(255,255,255,0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  .bar .line span{
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: #294246;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  .bar .line.html span{
+    width: 80%;
+  }
+  .bar .line.css span{
+    width: 70%;
+  }
+  .bar .line.python span{
+    width: 60%;
+  }
+  .bar .line.c span{
+    width: 50%;
+  }
+ 
+  .bar .line.php span{
+    width: 40%;
+  }
+  .bar .line.mysql span{
+    width: 30%;
+  }
+  .bar .line.js span{
+    width: 20%;
+  }
+  .bar .line.java span{
+    width: 15%;
+  }
+  
+  .line span::before{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  .line span::after{
+    position: absolute;
+    top: -18px;
+    right: 0;
+    font-weight: 500;
+    color: rgb(232, 237, 240);
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 10%;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  @keyframes showText2 {
+    100%{
+      opacity: 1;
+    }
+  }
+  .line.html span::after{
+    content: "80%";
+  }
+  .line.css span::after{
+    content: "70%";
+  }
+  .line.python span::after{
+    content: "60%";
+  }
+  .line.c span::after{
+    content: "50%";
+  }
+  .line.php span::after{
+    content: "40%";
+  }
+  .line.mysql span::after{
+    content: "30%";
+  }
+  .line.js span::after{
+    content: "20%";
+  }
+  .line.java span::after{
+    content: "15%";
+  }
+  
+.skill_container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* Skill section design ends here */
+
+/* project section design starts here */
+
+.project_container{
+     
+    background-color:#829e9e;
+    padding: 5px;
+}
+
+.heading{
+   
+   background-color:#5b7b7c  ;
+   border-radius: 5px;
+   margin:1%;
+   padding: 5px;
+   text-align:center; 
+   box-shadow: 5px 5px 5px  #1f3041; 
+}
+.heading h1{
+    text-shadow: 1px 1px 2px white;
+    margin:0px;
+   width:100%; 
+}
+.heading strong{
+    color: #94c9c9;
+    padding: 1px;
+}
+.project_menu{
+   padding: 5px;
+   width: 100%;
+}
+
+.project_card{
+   width: 100%;
+   background-color:#406f70 ;
+   padding: 10px;
+   margin:1% 1% 1% 0%;
+   border-radius: 5px;
+   color: white;
+   font-size: medium;
+   text-align: center;
+   transition: 0.3sec;
+}
+
+.project_img{
+    background-image: url("images/bg.jpg");
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.project_img img{
+    height: 60px;
+    width: 60px;
+    border: 3px white solid;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #b5e4e4;
+}
+.project_card strong{
+   color: black;
+   font-size: large;
+}
+.project_card a{
+   text-decoration: underline;
+  
+}
+.project_card:hover{
+   box-shadow: 5px 5px 5px  #1f3041;
+}
+.project_container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* project sectionn ends here */
+
+/* contact section starts here */
+.contact_container{
+    
+    background-color:#829e9e;
+    padding: 5px; 
+}
+
+.contact_form{
+    padding:1% 7%;
+    text-align: center;
+
+}
+.contact_form input, textarea{
+    width: 100%;
+    padding:10px;
+    font-size: 1rem;
+    text-align: center;
+    border:none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact_form button{
+    border-radius: 8px;
+    border: none;
+    background-color: #165e5e;
+    padding: 10px;
+    margin:10px;
+    cursor: pointer;
+    width:100px;
+    color:white;
+    font-size: larger;
+    
+}
+.contact_list{
+    text-align: center;
+}
+.media_button .btn{
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px ;
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    background-color: white;
+}
+.btn:hover{
+    background-color: #a4adac;
+    border:1px white solid;
+}
+.contact_container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* contact section Ends here */
+
+/* Footer design starts here */
+.footer_container{
+    background-color:#2e5152 ;
+    border-radius: 5px;
+    
+}
+.footer_menu{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: .8rem;
+    
+}
+.footer_menu a{
+    padding: 5px;
+
+}
+.footer_menu a:hover{
+   color: #a1d4d4;
+
+}
+.footer_desc{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+    color: white;
+}
+.footer_container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* Footer design ends here */
